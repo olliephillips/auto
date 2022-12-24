@@ -1,0 +1,89 @@
+baseURL: 'http://localhost:1313'
+languageCode: en
+title: Hargo | Hugo Ecommerce Site
+theme: hargo-hugo
+summaryLength: '20'
+paginate: 10
+disqusShortname: ''
+david: Ollie
+params:
+  david: Ollie
+  test:  hello
+  plugins:
+    css:
+      - link: plugins/bootstrap/bootstrap.min.css
+      - link: plugins/slick/slick.css
+      - link: plugins/themify-icons/themify-icons.css
+    js:
+      - link: plugins/jQuery/jquery.min.js
+      - link: plugins/bootstrap/bootstrap.min.js
+      - link: plugins/slick/slick.min.js
+      - link: plugins/google-map/gmap.js
+  logo: images/logo.png
+  home: Home
+  description: This is meta description
+  author: Themefisher
+  gmapAPI: >-
+    https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places
+  mapLatitude: '51.5223477'
+  mapLongitude: '-0.1622023'
+  mapMarker: images/marker.png
+  googleAnalyticsID: ''
+  mobile: 01248579853201
+  email: demo@email.com
+  location: 'Dhaka, Bangladedsh'
+  copyright: >-
+    | Copyright &copy; 2019 [Gethugothemes](https://gethugothemes.com) All
+    Rights Reserved |
+  snipcartApiKey: M2E5YjA3NjMtYzRiYS00YzVjLWEyYWYtNDY5ZDI0OWZhYjg5
+  currencySymbol: $
+  preloader:
+    enable: true
+    preloader: ''
+  rating:
+    enable: true
+    websiteID: '444334'
+    publicKey: 811cf0927332bf51f2e12f84608594ac
+  social:
+    - icon: ti-facebook
+      link: '#'
+    - icon: ti-twitter-alt
+      link: '#'
+    - icon: ti-youtube
+      link: '#'
+    - icon: ti-instagram
+      link: '#'
+    - icon: ti-pinterest
+      link: '#'
+  contact:
+    formAction: '#'
+menu:
+  main:
+    - name: Products
+      URL: products/
+      weight: 1
+    - name: Blog
+      URL: blog/
+      weight: 2
+    - name: FAQ
+      URL: faq/
+      weight: 3
+    - name: Contact
+      URL: contact/
+      weight: 4
+  footer:
+    - name: Products
+      URL: products/
+      weight: 1
+    - name: Blog
+      URL: blog/
+      weight: 2
+    - name: FAQ
+      URL: faq/
+      weight: 3
+    - name: Terms & Conditions
+      URL: terms-conditions/
+      weight: 4
+    - name: Contact
+      URL: contact/
+      weight: 5

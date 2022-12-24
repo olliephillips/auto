@@ -1,0 +1,16 @@
+{
+  "faqItem": [
+    {
+      "title": "JSON Will updates also be free",
+      "content": "Yes"
+    },
+    {
+      "title": "Test",
+      "content": "Yes"
+    },
+    {
+      "title": "Test2",
+      "content": "Yes"
+    }
+  ]
+}
